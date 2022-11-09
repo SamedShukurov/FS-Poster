@@ -1,7 +1,7 @@
 @import url("http://fonts.cdnfonts.com/css/euclid-circular-a");
 * {
   margin: 0;
-  padding: 0;
+  padding: 0; 
   box-sizing: border-box;
   font-family: "Euclid Circular A", sans-serif;
 }
@@ -27,17 +27,19 @@ footer > button{
     background-color: white;
     font-weight: 400;
     text-decoration: none;
+    transition: 2s;
 }
 footer > button > a{
   text-decoration: none;
   color:#222B45;
+  transition: 2s;
 }
 footer > button > a:hover{
-  transition: 1.5s;
+
   color:white;
 }
 footer > button:hover{
-  transition: 1.3s;
+
   background-color: #ff3d71;
   color:white;
 }

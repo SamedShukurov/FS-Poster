@@ -47,11 +47,11 @@ header {
 
 .center-content li a {
   color: #222b45;
+  transition-duration: 1.5s ;
   font-weight: 500;
 }
 .center-content li a:hover{
   transition:2s;
-  transition-duration: 1.5s ;
   color: #ff3d71;
 }
 li:nth-child(1)>a {
@@ -71,6 +71,7 @@ li:nth-child(1)>a {
   border: 1px solid #c5cee0;
   border-radius: 8px;
   padding: 8px 20px;
+  transition:2s;
 }
 
 .right-content button:nth-child(2) {
@@ -78,12 +79,11 @@ li:nth-child(1)>a {
   border-radius: 8px;
   color: #ffffff;
   padding: 8px 20px;
+
   border: none;
 }
 .right-content button:nth-child(1):hover{
   background: #ff3d71;
-  transition:2s;
-  transition-duration: 1.5s ;
   color: #ffffff;
 }
 
@@ -162,7 +162,13 @@ main>h2 {
   background: white;
   margin-left: 10px;
   margin-bottom: 30px;
+  transition: 2s;
 }
+.main-button>button:hover {
+  background-color:#2E3A59;
+  color:white;
+}
+
 
 /* Main Description */
 .main-description {
@@ -353,6 +359,7 @@ main>h2 {
   border-radius: 8px;
   margin-right: 110px;
   margin-bottom: 50px;
+  transition: 2s;
 }
 
 .card-1>img,
@@ -362,7 +369,12 @@ main>h2 {
   height: 240px;
   margin: 7px;
 }
-
+.card-1:hover,.card-2:hover,.card-3:hover{
+  height:425px ;
+  width: 400px;
+  padding: 10px;
+  padding-top:15px;
+}
 .card-content {
   margin: auto 16px;
 }
@@ -381,11 +393,12 @@ main>h2 {
   border: 1px solid #c5cee0;
   border-radius: 4px;
   background-color: #ffffff;
+  transition:2s;
 }
 .card-button button:hover{
   background: #ff3d71;
   color: white;
-  transition:2s;
+
 }
 
 
@@ -428,6 +441,7 @@ main>h2 {
   border-radius: 8px;
   padding: 14px 52px;
   border: none;
+  transition:2s;
 }
 
 .main-card-buttons button:nth-child(2) {
@@ -441,8 +455,6 @@ main>h2 {
 .main-card-buttons button:nth-child(1):hover{
   background-color: #222b45;
   color: #ffffff;
-  transition:2s;
-  transition-duration: 1.5s ;
 }
 .main-card>img {
   position: absolute;
@@ -500,12 +512,13 @@ footer {
 .company-list ul li:hover,
 .product-list ul li:hover{
   color: #ff3d71;
-  transition:1.5s;
+
 }  
 
 .product-list>ul li,
 .company-list>ul li {
   color: #2E3A59;
+  transition:2s;
 }
 
 /* contact-section */

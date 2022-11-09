@@ -29,7 +29,7 @@ header {
 }
 
 .left-content>h2 {
-  color: #2e3a59;
+  color: #2e3a59; 
 }
 
 .center-content>ul {
@@ -42,10 +42,9 @@ header {
 .center-content li a {
   color: #222b45;
   font-weight: 500;
-}
+  transition:2s;}
 .center-content li a:hover{
-  transition:2s;
-  transition-duration: 1.5s ;
+
   color: #ff3d71;
 }
 
@@ -66,6 +65,8 @@ li:nth-child(2)>a {
   border: 1px solid #c5cee0;
   border-radius: 8px;
   padding: 8px 20px;
+  transition:2s;
+
 }
 
 .right-content button:nth-child(2) {
@@ -77,8 +78,7 @@ li:nth-child(2)>a {
 }
 .right-content button:nth-child(1):hover{
   background: #ff3d71;
-  transition:2s;
-  transition-duration: 1.5s ;
+
   color: #ffffff;
 }
 
@@ -202,6 +202,8 @@ main>h2 {
   border-radius: 8px;
   padding: 14px 52px;
   border: none;
+  transition:2s;
+
 }
 
 .main-card-buttons button:nth-child(2) {
@@ -215,8 +217,7 @@ main>h2 {
 .main-card-buttons button:nth-child(1):hover{
   background-color: #222b45;
   color: #ffffff;
-  transition:2s;
-  transition-duration: 1.5s ;
+
 }
 .main-card>img {
   position: absolute;
@@ -274,12 +275,13 @@ footer {
 .company-list ul li:hover,
 .product-list ul li:hover{
   color: #ff3d71;
-  transition:1.5s;
+
 }  
 
 .product-list>ul li,
 .company-list>ul li {
   color: #2E3A59;
+  transition:2s;
 }
 
 /* contact-section */

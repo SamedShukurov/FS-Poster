@@ -115,12 +115,13 @@ li:nth-child(3)>a {
   padding: 6px 16px;
   border: 1px solid #c5cee0;
   border-radius: 4px;
+  transition:2s;
 }
 .main-top div button:nth-child(2):hover,
 .main-top div button:nth-child(3):hover{
   background: #ff3d71;
   color: white;
-  transition:2s;
+
 }
 
 
@@ -142,6 +143,7 @@ li:nth-child(3)>a {
   border-radius: 8px;
   margin-right: 30px;
   margin-bottom: 50px;
+  transition: 2s;
 }
  
 .card-1>img,
@@ -150,11 +152,12 @@ li:nth-child(3)>a {
   width: 368px;
   height: 240px;
   margin: 7px;
+  transition: 2s;
 }
-
 .card-content {
   margin: auto 16px;
 }
+
 
 .card-content>h2 {
   margin-top: 25px;
@@ -215,13 +218,14 @@ li:nth-child(3)>a {
   border-radius: 8px;
   padding: 14px 52px;
   border: none;
+  transition-duration: 1.5s ;
   
 }
 .main-card-buttons button:nth-child(1):hover{
   background-color: #222b45;
   color: #ffffff;
   transition:2s;
-  transition-duration: 1.5s ;
+
 }
 
 .main-card-buttons button:nth-child(2) {
@@ -290,6 +294,7 @@ footer {
 .product-list>ul li,
 .company-list>ul li {
   color: #2E3A59;
+  transition:1.5s;
 }
 
 /* contact-section */
@@ -333,7 +338,7 @@ footer {
 }
 .company-list ul li:hover,.product-list ul li:hover{
   color: #ff3d71;
-  transition:1.5s;
+
 }  
 
 /* Main-Bottom */
@@ -355,6 +360,7 @@ footer {
   border: none;
   background-color: white;
   font-size: 20px;
+  transition: 1.2s;
 }
 
 .Main-bottom img:nth-child(1) {
@@ -381,10 +387,10 @@ footer {
   margin-left: 20px;
   margin-right: 20px;
   font-size: 20px;
-}
+
+} 
 
 .Main-bottom>button:hover {
-  transition: 2s;
   background-color: #ff3d71;
   color: white;
 }
@@ -446,7 +452,7 @@ footer {
   .logo {
     margin-left: 20px;
   }
-
+ 
   .mail-info {
     justify-content: center;
   }
@@ -468,4 +474,4 @@ footer {
     width: 100%;
     text-align: center;
   }
-}
+} 
